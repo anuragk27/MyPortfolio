@@ -21,7 +21,7 @@
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
 }
 .about-para{
     display: flex;
@@ -59,8 +59,8 @@
     transform: 0.3s;
 }
 .about-left img{
-    width: 380px;
-    height: auto;
+    width: 400px;
+    height: 450px;
 }
 @media(max-width:768px){
     .about{
