@@ -6,10 +6,10 @@
     gap: 80px;
     margin: 80px 170px;
 }
-.about-tite{
+.about-title{
     position: relative;
 }
-.about-tite h1{
+.about-title h1{
      padding: 0px 30px;
      font-size: 80px;
      font-weight: 600;
@@ -68,11 +68,11 @@
         margin: 50px 70px;
         align-items: start;
     }
-    .about-tite h1{
+    .about-title h1{
         font-size: 50px;
         padding: 0;
     }
-    .about-tite img{
+    .about-title img{
         width: 130px;
         right: -20px;
     }

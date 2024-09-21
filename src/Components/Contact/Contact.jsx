@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contact.css'
 import img1 from '../../assets/email.png'
-import img2 from '../../assets/call.png'
-import img3 from '../../assets/location.png'
+import link from '../../assets/link.png'
+import git from '../../assets/git.png'
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div id='contact' className='contact'>
       <div className="contact-title">
-        <h1>Get in touch</h1>
+        <h1>🤝 Get in touch</h1>
         {/* <img src={} alt="" /> */}
       </div>
       <div className="contact-section">
@@ -42,13 +42,13 @@ const Contact = () => {
             projects or if you just want to connect!</p>
           <div className="contact-details">
               <div className="contact-detail">
-                <img src={img1} alt="" /><p>anuragk.c11@gmail.com</p>
+                <img src={img1} alt="" /><p><a href="mailto:anuragk.c11@gmail.com">anuragk.c11@gmail.com</a></p>
               </div>
               <div className="contact-detail">
-                <img src={img2} alt="" /><p>7065543419</p>
+                <img src={link} /><p><a href="https://www.linkedin.com/in/anurag-kumar-87ab681b2/" target="_blank" rel="noopener noreferrer">linkedin.com/anurag-kumar</a></p>
               </div>
               <div className="contact-detail">
-                <img src={img3} alt="" /><p>Noida,India</p>
+                <img src={git}/><p><a href="https://github.com/anuragk27" target="_blank" rel="noopener noreferrer">github.com/anuragk27</a></p>
               </div>
           </div>
         </div>

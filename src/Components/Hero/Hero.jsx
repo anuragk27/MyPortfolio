@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
-        <h1>Hello! <span>I'm Anurag Kumar</span></h1>
+        <h1>👋 Hello! <span>I'm Anurag Kumar</span></h1>
         <p>I am a passionate Web developer eager to create engaging and functional web applications.</p>
       
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact' >Conect With Me</AnchorLink></div>
-            <div className="hero-resume">My Resume</div>
+            <div className="hero-resume"><a href="https://drive.google.com/file/d/1o_xcRA5pSuHqkEYlMpXcUeshWoz0Y_72/view?usp=drive_link" target="_blank" rel="noopener noreferrer">My Resume</a></div>
         </div>
     </div>
   )
